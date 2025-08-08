@@ -1,6 +1,6 @@
 
 import { NextResponse } from 'next/server'
-import { LeagueSettings } from '@/src/lib/types'
+import { LeagueSettings } from '@/lib/types'
 import { randomUUID } from 'crypto'
 
 export async function POST(req: Request) {
