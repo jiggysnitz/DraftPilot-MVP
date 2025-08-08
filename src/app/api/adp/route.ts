@@ -1,6 +1,6 @@
 
 import { NextResponse } from 'next/server'
-import { LeagueSettings } from '@/src/lib/types'
+import { fetchMergedADP, buildTiers } from '@/lib/adp'
 
 export async function GET() {
   const players = await fetchMergedADP()
